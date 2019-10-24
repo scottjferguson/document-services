@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DocumentService.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DocumentsController : ControllerBase
     {
